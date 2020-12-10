@@ -18,7 +18,7 @@ namespace TreeViewAdv_CheckBox
         public Form1()
         {
             InitializeComponent();
-            treeView1 = new Syncfusion.Windows.Forms.Tools.TreeViewAdv();
+            treeView1 = new TreeViewAdv();
             treeView1.Name = "treeView1";
             treeView1.ShowCheckBoxes = true;
             treeView1.Size = new Size(312, 368);
@@ -29,7 +29,7 @@ namespace TreeViewAdv_CheckBox
             TreeNodeAdv treeNode7 = new TreeNodeAdv("Node7");
 
             //Adding the subnode of [treeNode1 and treenode7] in Root [treeNode2].
-            TreeNodeAdv treeNode2 = new TreeNodeAdv("Node0", new Syncfusion.Windows.Forms.Tools.TreeNodeAdv[] {
+            TreeNodeAdv treeNode2 = new TreeNodeAdv("Node0", new TreeNodeAdv[] {
             treeNode1, treeNode7});
             treeNode2.Expanded = true;
 
@@ -38,7 +38,7 @@ namespace TreeViewAdv_CheckBox
             TreeNodeAdv treeNode8 = new TreeNodeAdv("Node8");
 
             //Adding the subnode of [treeNode3 and treenode8] in Root [treeNode4].
-            TreeNodeAdv treeNode4 = new TreeNodeAdv("Node2", new Syncfusion.Windows.Forms.Tools.TreeNodeAdv[] {
+            TreeNodeAdv treeNode4 = new TreeNodeAdv("Node2", new TreeNodeAdv[] {
             treeNode3, treeNode8});
             treeNode4.Expanded = true;
 
@@ -47,7 +47,7 @@ namespace TreeViewAdv_CheckBox
             TreeNodeAdv treeNode9 = new TreeNodeAdv("Node9");
 
             //Adding the subnode of [treeNode5 and treenode9] in Root [treeNode6].
-            TreeNodeAdv treeNode6 = new TreeNodeAdv("Node4", new Syncfusion.Windows.Forms.Tools.TreeNodeAdv[] {
+            TreeNodeAdv treeNode6 = new TreeNodeAdv("Node4", new TreeNodeAdv[] {
             treeNode5, treeNode9});
             treeNode6.Expanded = true;
 
@@ -81,7 +81,7 @@ namespace TreeViewAdv_CheckBox
             treeNode6.Text = "Africa";
 
             //Add the nodes in TreeViewAdv nodes collection
-            treeView1.Nodes.AddRange(new Syncfusion.Windows.Forms.Tools.TreeNodeAdv[] {
+            treeView1.Nodes.AddRange(new TreeNodeAdv[] {
             treeNode2,
             treeNode4,
             treeNode6});
