@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.64
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeViewAdv_CheckBox", "TreeViewAdv_CheckBox.csproj", "{C1155F70-01C4-4D3E-A2A5-1EE4869D8991}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1155F70-01C4-4D3E-A2A5-1EE4869D8991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1155F70-01C4-4D3E-A2A5-1EE4869D8991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1155F70-01C4-4D3E-A2A5-1EE4869D8991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1155F70-01C4-4D3E-A2A5-1EE4869D8991}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {307689F6-2308-4A58-ADA5-F226EDD108A3}
+	EndGlobalSection
+EndGlobal
