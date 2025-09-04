@@ -11,3 +11,4 @@ int checkedCount = treeView1.CheckedNodes.Count;
 ```csharp
 Dim checkedCount As Integer = treeView1.CheckedNodes.Count
 ```
+![count of checked nodes](output.png)
