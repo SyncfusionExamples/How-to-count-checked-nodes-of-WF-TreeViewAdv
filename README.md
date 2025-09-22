@@ -18,3 +18,7 @@ Dim checkedCount As Integer = treeView1.CheckedNodes.Count
 ![count of checked nodes](output.png)
 
 Take a moment to peruse the [WinForms TreeViewAdv - CheckBox](https://help.syncfusion.com/windowsforms/treeview/getting-started#checkbox) documentation, to learn more about checkbox with examples.
+
+## Requirements to run the demo
+ 
+Visual Studio 2015 and above versions
